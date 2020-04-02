@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Feed</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-card align = "center">
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/images/avatar.png">
+      </ion-avatar>
+      <div>
+        <h4 class = "feed_title">{{ nomeUsuario }}</h4>
+        <p class="feed_dataPost">November 5, 1955</p>
+      </div>  
+    </ion-item>
+    
+
+    <img src="assets/images/feed_image.png">
+
+    <ion-card-content>
+      <p>Estou desenvolvendo um app incrivel .....</p>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-card>
+
+  
+</ion-content>
